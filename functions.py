@@ -213,6 +213,8 @@ def format_docs(docs):
 
 # retriever | format_docs passes the question through the retriever, generating Document objects, and then to format_docs to generate strings;
 # RunnablePassthrough() passes through the input question unchanged.
+
+
 def query_document(vectorstore, query, api_key):
 
     """
